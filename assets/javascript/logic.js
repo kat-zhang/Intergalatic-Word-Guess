@@ -1,8 +1,20 @@
 
 var wordBank = ['MERCURY','VENUS', 'EARTH','MARS','JUPITER', 'URANUS', 'NEPTUNE','SATURN', 'PLUTO', 'MOON', 'SUN','ASTEROID','ROCKET','ASTRONAUT', 'ALIEN','UFO'];
 
-var word = wordBank[Math.floor(Math.random()*wordBank.length)];
+var gameWord = '';
 
+var blankAnswer = [];
+
+var wordLength = 0;
+
+var wrongGuesses = [];
+
+var blanksGuesses = [];
+
+var usedLetters = '';
+
+
+wordBank[Math.floor(Math.random()*wordBank.length)];
 // testing random word
 console.log(word);
 
