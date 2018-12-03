@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/darkness.png");
+    text-align: center;
+}
+header {
+    width: 980px;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 1px 1px 45px cyan;
+}
+h5 {
+    color: lime;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+.card {
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-color: lime;
+}
+.card-header {
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+}
+#wrong-letters {
+    width: 698px;
+    margin: auto;
+    background-color: black;
+    border-color: lime;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 
+}
+
+#letter-board {
+    width: 698px;
+    margin: auto;
+    border-color: lime;
+}
