@@ -13,6 +13,10 @@ body {
     color: black;
     text-shadow: 1px 1px 45px cyan;
 }
+#info {
+    color: lime;
+    font-family: 'Roboto-Mono', monospace;
+}
 
 #header, #game-container {
     margin: auto;
@@ -45,6 +49,9 @@ body {
     font-size: 24px;
     height: 75px;
 }
+#guesses {
+    color: white;
+}
 /* #score-card {
     align-content: center;
     max-width: 980px;
@@ -57,7 +64,7 @@ body {
     margin-right: auto;
 }
 .card {
-    background-color: transparent;
+    background-color: black;
 }
 .card-header {
     background-color: black;
