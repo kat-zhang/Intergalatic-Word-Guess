@@ -1,51 +1,88 @@
 body {
     background-image: url("../images/darkness.png");
-    text-align: center;
+    box-sizing: border-box;
+
 }
-header {
-    width: 980px;
+
+#title {
     font-family: 'Russo One', sans-serif;
-    color: black;
-    margin: auto;
-    margin-top: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-h1 {
     font-size: 60px;
     text-transform: uppercase;
     color: black;
     text-shadow: 1px 1px 45px cyan;
 }
-h5 {
-    color: lime;
-    font-family: 'Roboto Mono', monospace;
-    font-style: italic;
+
+#header, #game-container {
+    margin: auto;
+    max-width: 1200px;
+    padding-bottom: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    align-content: center;
+}
+#game-container {
+    margin-bottom: 50px;
+}
+#wins-losses {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wins, .losses {
+    border-color: lime;
+}
+.wins {
+    float: left;
+    width: 50%;
+
+}
+.losses {
+    width: 50%;
+}
+#count {
+    font-size: 24px;
+    height: 75px;
+}
+/* #score-card {
+    align-content: center;
+    max-width: 980px;
+} */
+
+#box1, #box2 {
+    max-width: 980px;
+    border-color: lime;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card {
-    width: 700px;
-    margin: auto;
-    margin-top: 50px;
-    border-color: lime;
+    background-color: transparent;
 }
 .card-header {
-    text-align: left;
-    font-family: 'Russo One', sans-serif;
-}
-#wrong-letters {
-    width: 698px;
-    margin: auto;
     background-color: black;
     border-color: lime;
-    font-family: 'Roboto Mono', monospace;
-    text-transform: uppercase;
-    text-align: center;
     color: white;
-    font-size: 
+    font-family: 'Roboto-Mono', monospace;
+
 }
 
-#letter-board {
-    width: 698px;
-    margin: auto;
+.card-body {
+    height: 100px;
+   
+    background-color: black;
     border-color: lime;
+    color: white;
+    font-size: 36px;
+    font-family: 'Roboto-Mono', monospace;
+}
+#wrong {
+    text-transform: uppercase;
+}
+#game-word {
+
+    max-width: 980px;
+    height: 340px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: lime;
+    background-color: black;
 }

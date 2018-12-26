@@ -13,6 +13,9 @@ var blanksGuesses = [];
 
 var usedLetters = '';
 
+var winCount = 0;
+var lossCount = 0;
+var guessCount = 9;
 
 wordBank[Math.floor(Math.random()*wordBank.length)];
 // testing random word

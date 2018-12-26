@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,72 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Russo+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 </head>
+
 <body id="bg-image">
-    <header> <h1>Intergalatic Word Guess</h1>
-        <!-- <h5> It's outta this world! </h5></header> -->
-<div class='card'><div class='card-header'>INCORRECT LETTERS :</div>
-<div class='card-body'id='wrong-letters'></div></div>
+    <div id="header" class="jumbotron">
+        <h1 id="title" class="text-center"> Intergalatic Word Guess</h1>
+    </div>
 
-<div class='card'>
-<div class='card-body' id='letter-board'></div>
-</div>
+    <!-- game area -->
+    <div id="game-container" class="jumbotron">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div id="wins-losses">
+        <div class="card wins">
+            <div class="card-body" id="count">
+                Wins: 
+            </div>
+        </div>
+        <div class="card losses">
+            <div class="card-body"  id="count">
+                Losses: 
+            </div>
+        </div>
+    
+    </div>
 
 
-
-
+        <!-- word in play -->
+        <div id="game-word" class="card">
 
 
 
 
 
-<script src="assets/javascript/logic.js"></script>
+
+        </div>
+
+
+
+
+
+
+        <!-- score board -->
+        <div id="score-board">
+            <div class="card" id="box1">
+                <div class="card-header">
+                    Guesses Remaining
+                </div>
+                <div class="card-body text-center">
+                    <p> 9 </p>
+                </div>
+            </div>
+            <div class="card" id="box2">
+                <div class="card-header">
+                    Incorrect Letters
+                </div>
+                <div class="card-body text-center" id="wrong">
+                    <p> ... </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="assets/javascript/logic.js"></script>
 </body>
+
 </html>
