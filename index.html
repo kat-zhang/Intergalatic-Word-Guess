@@ -10,8 +10,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/logic.js"></script>
 </head>
 
 <body id="bg-image">
@@ -36,20 +39,10 @@
     
     </div>
 
-
         <!-- word in play -->
         <div id="game-word" class="card">
-
-
-
-
-
-
+        <h3 class="text-center" id="word">_ _ _ _ _ _ _ </h3>
         </div>
-
-
-
-
 
 
         <!-- score board -->
@@ -59,22 +52,25 @@
                     Guesses Remaining
                 </div>
                 <div class="card-body text-center">
-                    <p> 9 </p>
+                    
+                    
                 </div>
             </div>
+
             <div class="card" id="box2">
                 <div class="card-header">
                     Incorrect Letters
                 </div>
                 <div class="card-body text-center" id="wrong">
-                    <p> ... </p>
+                    
+                    
                 </div>
             </div>
         </div>
 
 
     </div>
-    <script src="assets/javascript/logic.js"></script>
+    
 </body>
 
 </html>

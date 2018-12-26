@@ -5,6 +5,8 @@ body {
 }
 
 #title {
+    max-width:980px;
+    margin: auto;
     font-family: 'Russo One', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
@@ -78,11 +80,19 @@ body {
     text-transform: uppercase;
 }
 #game-word {
-
     max-width: 980px;
     height: 340px;
     margin-right: auto;
     margin-left: auto;
     border-color: lime;
     background-color: black;
+}
+
+#word {
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 60px;
+    height: 200px;
 }
