@@ -71,7 +71,7 @@ function checkInput(letter) {
         guessCount--;
 
     }
-
+    
 }
 
 function guessOver() {
@@ -80,21 +80,21 @@ function guessOver() {
     $("#word").text(blankAnswer.join(" "));
     $("#wrong").text(wrongGuesses.join(" "));
     
-     if (wordLetters.toString() === blanksAnswer.toString()) {
+    if (wordLetters.toString() === blankAnswer.toString()) {
         winCount++;
         $(".win-count").text(winCount);
         alert("You win!");
         
         getWord();
-     }
-     else if (guessCount === 0) {
- 
+    }
+    else if (-1 < guessCount < 1) {
+        guessCount=0
         lossCount++;
         $(".loss-count").text(lossCount);
-        alert("You lose");
+        alert("Try again");
  
         getWord();
-     }
+    }
  
  }
 
